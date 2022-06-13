@@ -19,13 +19,12 @@ package:
   individually: true
 
 plugins:
+  - serverless-plugin-typescript
   - serverless-offline
-  - serverless-plugin-scripts
   - serverless-dotenv-plugin
   - serverless-plugin-common-excludes
   - serverless-plugin-include-dependencies
 
 custom:
-  scripts:
-    hooks:
-      "before:package:initialize": npm run build
+  serverlessPluginTypescript:
+    tsConfigFileLocation: "./tsconfig.json"
