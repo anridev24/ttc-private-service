@@ -1,8 +1,4 @@
-**⚠ modifing handler.js is not recomended ⚠**
-
-    - During Development run "npm run dev" for typescript watch mode
-    - run "serverless deploy to deploy"
-    - run "serverless offline for offline testing"
+# TTC Lambda Service
 
 # Scripts
 
